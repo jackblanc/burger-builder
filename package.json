@@ -2,7 +2,7 @@
     "name": "burger-builder",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://jackblanc.github.io/burgerbuilder",
+    "homepage": "http://jackblanc.github.io/burger-builder",
     "dependencies": {
         "@babel/core": "7.1.0",
         "@svgr/webpack": "2.4.1",
