@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import classes from './BurgerIngredients.module.css';
- 
+
 class BurgerIngredient extends Component {
     render() {
         let ingredient = null;
@@ -29,13 +29,13 @@ class BurgerIngredient extends Component {
             case ('bacon'):
                 ingredient = <div className={classes.Bacon}></div>;
                 break;
-            case ('salad'):
-                ingredient = <div className={classes.Salad}></div>;
+            case ('lettuce'):
+                ingredient = <div className={classes.Lettuce}></div>;
                 break;
             default:
                 ingredient = null;
         }
-        
+
         return ingredient;
     }
 }

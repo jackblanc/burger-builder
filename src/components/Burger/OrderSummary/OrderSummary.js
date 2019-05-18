@@ -9,13 +9,13 @@ class OrderSummary extends Component {
             .map(igKey => {
                 return <li key={igKey}>
                     <span style={{ textTransform: 'capitalize' }}>{igKey}</span>:
-                    {this.props.ingredients[igKey]}
+                      {this.props.ingredients[igKey]}
                 </li>
             });
         return (
             <Aux>
                 <h3>Your Order</h3>
-                <p>A delicious burger with the following ingredients:</p>
+                <p>A delicious burger with the following ingredients: </p>
                 <ul>
                     {ingredientSummary}
                 </ul>
